@@ -3,32 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portfolio</title>
+    <title>Arthur`s Portfolio</title>
+    <style>
+        #menu {
+        background-color: rgb(77, 40, 6);
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+      }
+      .menu-options {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 350;
+        bottom: -20px;
+        left: -380px;
+      }
+      #main-content {
+        width: 1500px;
+        margin: auto;
+        position: relative;
+        bottom: -100px;
+      }
+      
+      .main-text {
+        text-align: justify;
+        margin-top: 50px;
+        padding-top: 20px;
+        border-top: rgb(54, 54, 51) 1px solid;
+      }
+      body {
+        background-color: rgb(237, 243, 236);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(44, 43, 43);
+      }
+      
+      h1 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 60px;
+        color: rgb(233, 243, 236);
+        margin: 0;
+        position: relative;
+        bottom: 10px;
+        left: 850px;
+      }
+      
+      h2 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 35px;
+        color: rgb(238, 248, 243);
+        margin: 0;
+        position: relative;
+        bottom: 20px;
+        left: 860px;
+      }
+      
+      h3 {
+        font-size: 50px;
+        color: rgb(58, 59, 59);
+        font-weight: 500;
+      }
+      
+      a {
+        text-decoration: none;
+        color:rgb(155, 140, 140);
+      }
+      #img-circular {
+        width: 350px;
+        position: relative;
+        bottom: 70px;
+        left: 300px;
+        background-color:rgb(173, 79, 79);
+        padding: 10px;
+      }
+      
+      #description {
+       float: left;
+       margin-left: 30px;
+       width: 50%;
+       text-align: justify;
+   
+      }
+      
+      .skills-bottom{
+          margin-top:200px;
+          margin-left: 100px;
+          margin-bottom: 200px;
+    clear: both;
+    
+    }
+    #footer {
+        background:rgb(77, 40, 6);
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        color: rgb(228, 222, 222);        
+      }
+  
+      }   
+    </style>
 </head>
 <body>
+    <div id="menu">
 
-            <h1>Indice</h1>
-            <ol>
-                <li><a href="#fotinha">Arthur de Sa Vasconcelos</a></li>
-                <li><a href="#eu">Quem sou eu?</a></li>
-                <li><a href="#Habilidades">Quais minhas habilidades?</a></li>
-            </ol>
-            <h1 id"fotinha">Arthur de Sa Vasconcelos</h1>
-            <img src="/Imagens/perfil_trybe.png" alt="Foto do Arthur" width ="300p">
-        <h3 id"eu">Quem sou eu?</h3s>
-        <p><strong> <em> Meu nome e Arthur de Sa Vasconcelos, tenho 26 anos e moro em Nova Lima, MG. Sou estudante na área de Desenvolvimento de Software, em busca de um conhecimento aprofundado em Javascript. Também estudante de Engenharia de Produção o que me motiva à conhecer melhor as diversas áreas abrangidas do curso.
-        Experiência como estagiário na empresa de Ibmex Consultoria Jr.. Atuação como consultor através do programa Lean Enterprise Systems da Universidade do Tennessee, Knoxville em uma das principais montadoras de carrocerias de caminhões dos EUA, chamada Heil Trailer.</strong>
-        Habilidade e domínio em informática do pacote Office, como Excel e Word. Leitura, escrita e conversação em inglês avançadas.
-        Facilidade de comunicação e em trabalho em equipe, cooperativo, capacidade analítica, organizado e acostumado com trabalho sob pressão, sempre buscando adquirir mais conhecimento.
-        Grande interesse nas áreas de Controle de Produção, Consultoria Empresarial, Consultoria Financeira, área bancária e afins. </em></p>
-        <a target="blank" href="https://www.facebook.com/arthur.d.vasconcelos">Link para acesso do meu perfil no Facebook</a>
-        <h3 id"Habilidades">Quais minhas habilidades?</h3>
-            <p><ol>
-                <li>Mapeamento de processos;</li>
-                <li>Consultoria empresarial;</li>
-                <li>Sitema Lean. </li>
+        <p class="menu-options">
+          <a href="#Arthur-tittle" >| Quem sou eu?</a>
+          <a href="#description">| Sobre mim |</a>
+          <a href="#habilidades-tecnicas">Habilidades tecnicas | </a>
+          <a href="#soft-skills">Soft Skills | </a>
+        </p> 
 
-                </li>
-        </ol></p>
+        <div id="main-content">
+            <div class="main-text">
+              <h3 id="Arthur-tittle"> Arthur de Sa Vasconcelos</h3>
+             
+             <p id="description"> Hi guys, meu nome e Arthur de Sa Vasconcelos. <br>
+
+                Atualmente moro em <strong class="font-style">Nova Lima, MG. </strong><br>
+                Comecei minha jornada em tecnologia ha pouco tempo pela Trybe, e ja posso dizer que estou muito empolgado.<br>
+                Sou estudante na área de <strong class="font-style">Desenvolvimento de Software</strong>, em busca de um conhecimento aprofundado em Javascript. <br>
+                Também estudante de Engenharia de Produção o que me motiva à conhecer melhor as diversas áreas abrangidas do curso. <br>
+                Experiência como estagiário na empresa de Ibmex Consultoria Jr.. Atuação como consultor através do programa Lean Enterprise Systems da Universidade do Tennessee, Knoxville em uma das principais montadoras de carrocerias de caminhões dos EUA, chamada Heil Trailer. Habilidade e domínio em informática do pacote Office, como Excel e Word. Leitura, escrita e conversação em inglês avançadas. Facilidade de comunicação e em trabalho em equipe, cooperativo, capacidade analítica, organizado e acostumado com trabalho sob pressão, sempre buscando adquirir mais conhecimento. Grande interesse nas áreas de Controle de Produção, Consultoria Empresarial, Consultoria Financeira, área bancária e afins.<br>
+            </p>
+        
+
+</div>
+    <img id="img-circular" src="/Pictures/tubas.jpg" alt="foto do arthur" width="150">
+    
+
+</div>
+
+<div class="skills-bottom">
+    <h3 id="habilidades-tecnicas"> Habilidades tecnicas</h3>
+    <ul><strong></strong>
+        <li class="little-list"> Mapeamento de processos</li>
+        <li class="medium-list"> Consultoria empresarial </li>
+        <li class="large-list">Sistema Lean</li>
+    </strong>
+    </ul> <br>
+
+    <h3 id="soft-skills"> Soft Skills</h3>
+    <ul><strong></strong>
+        <li class="little-list"> Excelente comunicacao</li>
+        <li class="medium-list"> Persistente </li>
+        <li class="large-list">Companheirismo</li>
+    </strong>
+    </ul>
+</div>
+<div id="footer">
+    <p>
+        Caso queira me conhecer melhor, visite minha pagina no facebook: <a target="_blank" href="https://www.facebook.com/arthur.d.vasconcelos">Facebook page</a>
+    </p>
+    </div>
 </body>
 </html>
